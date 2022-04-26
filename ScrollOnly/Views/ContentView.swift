@@ -31,7 +31,7 @@ struct ContentView: View {
                             VStack {
                                 Image(flowerString).resizable().frame(width: /*@START_MENU_TOKEN@*/300.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/300.0/*@END_MENU_TOKEN@*/)
                                 // "ModelOfData.quote"
-                                Text(quote)
+                                Text(quote).font(.headline).foregroundColor(Color.blue).bold()
                                 
                             }
                             
