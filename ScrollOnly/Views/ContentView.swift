@@ -22,7 +22,7 @@ struct ContentView: View {
                 ForEach (flowerImageArray, id: \.self) { flowerString in
                     // get random quote
                    
-                    let randomQuote = objOfDataBinding.populatedQuotesArray[Int.random(in: 0...30)]
+                    let randomQuote = objOfDataBinding.populatedQuotesArray[Int.random(in: 0...20)]
                     let quote = randomQuote.quote
                     let author = randomQuote.author
                     
